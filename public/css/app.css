@@ -4,11 +4,16 @@ nav{
     display: flex;
   justify-content: space-around;
 
-    background-color: aqua;
-    width: 100%; 
+    
 
 }
 .links{
     display: flex;
-    
+    gap: 50px;
+   
+
+}
+.links a{
+  text-decoration: none;
+  color :rgb(36, 75, 31) ;
 }
