@@ -1,8 +1,12 @@
-*
+*{ margin 0 ; 
+  padding 0;
+  box-sizing: border-box;
+}
 
 nav{
     display: flex;
   justify-content: space-around;
+  align-items: center;
 
     
 
@@ -16,4 +20,66 @@ nav{
 .links a{
   text-decoration: none;
   color :rgb(36, 75, 31) ;
+}
+
+.part1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+.leftpart{
+  /* background-color: black; */
+  width: 50vw;
+  height:50vh ;
+}
+
+.leftpart h1{
+  color: rgb(22, 22, 56);
+  font-size: 40px;
+}
+.leftpart h5 {
+  color: grey;
+}
+button {
+  background-color: red;
+  border-radius: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  color :white ;
+ border: none;
+}
+.rightpart{
+  /* background-color: blue; */
+  width: 50vw;
+  height: 50vh;
+}
+.part2{
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+
+}
+.div1 , .div2 , .div3{
+   /* height: 100px;
+ width: 100px; */
+ width: 35%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+
+
+}
+
+.part2 h1{ 
+  color:rgb(17, 17, 65) ;
+  /* font-size: 70px; */
+
+
+
 }
