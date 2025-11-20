@@ -153,3 +153,49 @@ footer h3{
   color :white ;
 }
 
+.part4{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.part4 a {
+  text-decoration: none;
+  color: red;
+}
+
+.title2{
+  display: flex;
+  justify-content: flex-start;
+  color:rgb(17, 17, 65) ;
+}
+
+.about{
+  display: flex;
+  justify-content: space-around;
+}
+.about input{
+  width: 600px;
+  height: 30px;
+  
+}
+
+.input-text{
+ display: flex;
+ justify-content: flex-start;
+ padding-left: 75px;
+ padding-top:20px ;
+
+}
+
+.input-text textarea{
+   width: 94%;
+ height: 200px;
+}
+
+
+.last-button{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px ;
+}
