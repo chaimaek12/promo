@@ -30,6 +30,9 @@ nav{
   text-decoration: none;
   color :rgb(36, 75, 31) ;
 }
+.links a:hover {
+  color:  red;
+}
 
 .part1{
   display: flex;
@@ -42,6 +45,10 @@ nav{
   /* background-color: black; */
   width: 50vw;
   height:50vh ;
+}
+.leftpart button:hover{
+  background-color:white ;
+  color: rgb(22, 22, 56);
 }
 
 .leftpart h1{
