@@ -225,4 +225,31 @@ footer h3{
 }
 .input{padding-left: 200px;
 
+} 
+
+@media (max-width: 450px){
+  .links{
+    display: none;
+
+  }
+  nav button {
+    display: none;
+  }
+  
+
+
+  }
+
+
+  
+   
+
+
+
+
+
+
+
+
+
 }
