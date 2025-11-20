@@ -45,6 +45,7 @@ nav{
   /* background-color: black; */
   width: 50vw;
   height:50vh ;
+  padding-left: 70px;
 }
 .leftpart button:hover{
   background-color:white ;
@@ -78,36 +79,48 @@ button {
   height: 50vh;
 }
 .part2{
-  padding-top: 200px;
+  /* padding-top: 200px; */
   display: flex;
   justify-content: space-around;
- align-items: center;
- justify-content: center;
+ align-items: start;
+ /* margin-top: 20px; */
+ 
 
+} 
+
+.div1{
+  gap: 20px;
 }
+
 .div1 button {
-  left  :20px ;
+  width: 150px;
 }
 .div1 , .div2 , .div3{
- background-color: aqua;
- width: 35%;
+ /* background-color: aqua; */
+ /* width: 35%; */
  display: flex;
  flex-direction: column;
- align-items: center;
- justify-content: center;
+ /* align-items: center;
+ justify-content: center; */
 border-style:solid ;
- border-color: rgb(6, 6, 6) ;
- width: 30vw;
+ border-color: transparent ;
+ width: 20vw;
  height: 50vh;
 
 
 }
+/* .div2 i  , .div3 i{ margin : 0 auto ;
+ width: 70%;
+ padding-bottom: 10px;
+ 
+} */
+
 
 
 
 .part2 h1{ 
   color:rgb(17, 17, 65) ;
-  font-size: 50px;
+  font-size:40px;
   
 }
 footer{
@@ -162,8 +175,8 @@ footer h3{
   display: flex;
   justify-content: flex-start;
 }
-.part4 a , .part4 h2 {
-  padding: 20px;
+.part4 a , .mod {
+  padding-left: 200px;
 }
 
 .part4 a {
@@ -190,7 +203,7 @@ footer h3{
 .input-text{
  display: flex;
  justify-content: flex-start;
- padding-left: 75px;
+ /* padding-left: 75px; */
  padding-top:20px ;
 
 }
@@ -214,4 +227,9 @@ footer h3{
 
 .hero img{
   padding-bottom: 200px;
+.modif{ 
+  padding-left: 200px;
+}
+.input{padding-left: 200px;
+
 }
