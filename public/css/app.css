@@ -237,6 +237,14 @@ footer h3{
 .input{padding-left: 200px;
 
 } 
+input{display :none}
+/* .checkbtn{
+    /* cursor:pointer;  */
+    /* display: none;
+  } */ */
+  #check {
+    display: none;
+  }
 
 @media (max-width: 450px){
   .links{
@@ -246,7 +254,14 @@ footer h3{
   nav button {
     display: none;
   }
+  input {
+    display: block;
+  }
   
+  #check:checked +.links{
+    display: block;
+    left: 0;
+  }
 
 
   }
