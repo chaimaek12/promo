@@ -103,7 +103,7 @@ button {
  /* align-items: center;
  justify-content: center; */
 border-style:solid ;
- border-color: black;
+ border-color: transparent ;
  width: 20vw;
  height: 50vh;
 
@@ -175,8 +175,8 @@ footer h3{
   display: flex;
   justify-content: flex-start;
 }
-.part4 a , .part4 h2 {
-  padding: 20px;
+.part4 a , .mod {
+  padding-left: 200px;
 }
 
 .part4 a {
@@ -203,7 +203,7 @@ footer h3{
 .input-text{
  display: flex;
  justify-content: flex-start;
- padding-left: 75px;
+ /* padding-left: 75px; */
  padding-top:20px ;
 
 }
@@ -219,4 +219,10 @@ footer h3{
   justify-content: center;
   align-items: center;
   padding-top: 80px ;
+}
+.modif{ 
+  padding-left: 200px;
+}
+.input{padding-left: 200px;
+
 }
