@@ -45,6 +45,7 @@ nav{
   /* background-color: black; */
   width: 50vw;
   height:50vh ;
+  padding-left: 70px;
 }
 .leftpart button:hover{
   background-color:white ;
@@ -87,6 +88,9 @@ button {
 
 } 
 
+.div1{
+  gap: 20px;
+}
 
 .div1 button {
   width: 150px;
@@ -116,7 +120,7 @@ border-style:solid ;
 
 .part2 h1{ 
   color:rgb(17, 17, 65) ;
-  font-size: 50px;
+  font-size:40px;
   
 }
 footer{
