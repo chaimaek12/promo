@@ -26,7 +26,7 @@ nav{
    
 
 }
-.links a{
+ .links a  {
   text-decoration: none;
   color :rgb(36, 75, 31) ;
 }
@@ -99,5 +99,48 @@ border-style:double ;
   color:rgb(17, 17, 65) ;
   font-size: 50px;
   
+}
+footer{
+ background-color: rgb(27, 27, 157);
+  justify-content: center;
+  align-items: center;
+margin-top: 20px;
+padding-left: 600px;
+
+
+}
+footer div{
+  display: flex;
+ column-gap: 60px;
+  
+}
+.footerlink a {
+  text-decoration: none;
+  color :white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+ 
+
+}
+footer h1{
+  color: red;
+font-size: 40px;
+margin: 0 auto ;
+width: 80%;
+}
+footer h4{
+ margin : 0 auto ;
+ width: 50%;
+}
+footer h3{
+  margin: 0 auto ;
+  width: 70%;
+  color: white;
+}
+.logosfooter{
+  margin:0 auto;
+  width: 70%;
+  padding-top:10px ;
+  padding-bottom: 10px;
 }
 
