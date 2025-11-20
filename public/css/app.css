@@ -39,6 +39,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   padding: 80px;
+  padding-bottom: 200px;
 
 }
 .leftpart{
@@ -77,6 +78,7 @@ button {
   /* background-color: blue; */
   width: 50vw;
   height: 50vh;
+ 
 }
 .part2{
   /* padding-top: 200px; */
@@ -90,6 +92,9 @@ button {
 
 .div1{
   gap: 20px;
+}
+.rightpart img{
+  padding-bottom: 200px;
 }
 
 .div1 button {
@@ -225,8 +230,7 @@ footer h3{
   padding-left: 40px;
 }
 
-.hero img{
-  padding-bottom: 200px;
+
 .modif{ 
   padding-left: 200px;
 }
