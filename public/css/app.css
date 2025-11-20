@@ -73,7 +73,7 @@ button {
   color :white ;
  border: none;
 }
-.rightpart{
+.rightpart {
   /* background-color: blue; */
   width: 50vw;
   height: 50vh;
@@ -209,7 +209,7 @@ footer h3{
 }
 
 .input-text textarea{
-   width: 94%;
+ width: 94%;
  height: 200px;
 }
 
@@ -220,6 +220,13 @@ footer h3{
   align-items: center;
   padding-top: 80px ;
 }
+
+.part4{
+  padding-left: 40px;
+}
+
+.hero img{
+  padding-bottom: 200px;
 .modif{ 
   padding-left: 200px;
 }
