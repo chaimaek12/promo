@@ -82,6 +82,7 @@ button {
   display: flex;
   justify-content: space-around;
  align-items: start;
+ /* margin-top: 20px; */
  
 
 } 
@@ -92,18 +93,24 @@ button {
 }
 .div1 , .div2 , .div3{
  /* background-color: aqua; */
- width: 35%;
+ /* width: 35%; */
  display: flex;
  flex-direction: column;
  /* align-items: center;
  justify-content: center; */
 border-style:solid ;
- border-color: rgb(6, 6, 6) ;
- width: 30vw;
+ border-color: black;
+ width: 20vw;
  height: 50vh;
 
 
 }
+/* .div2 i  , .div3 i{ margin : 0 auto ;
+ width: 70%;
+ padding-bottom: 10px;
+ 
+} */
+
 
 
 
