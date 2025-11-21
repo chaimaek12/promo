@@ -20,7 +20,7 @@ nav{
     
 
 }
-.links{
+.links{ display: block;
     display: flex;
     gap: 50px;
    
@@ -193,19 +193,39 @@ footer h3{
 }
 .input{padding-left: 200px;
 
-} 
-/* input{display :none}
-/* .checkbtn{
-    /* cursor:pointer;  */
 
-    /* display: none;
-  } */ */
-  #check {
-    display: none;
-  } */
-
+}
+#check{display: none;}
+.checkbtn{
+  display: none;
+}
  @media (max-width: 450px){
+
+  #check{display: block;}
+  .checkbtn{display: block;}
+  #check:checked ~.links {
+    left: 0;
+
+  }
+
   
+.links { display: none;}
+.part1{ 
+  flex: none;
+}
+.part2{
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+ gap: 100px;
+}
+.div2{
+  padding-top: 40px;
+}
+footer{
+  width: 1000px;
+
+}
 
 
   } 
