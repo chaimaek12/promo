@@ -36,6 +36,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   padding: 80px;
+  padding-bottom: 200px;
 
 }
 .leftpart{
@@ -69,6 +70,7 @@ button {
   /* background-color: blue; */
   width: 50vw;
   height: 50vh;
+ 
 }
 .part2{
   padding-top: 200px;
@@ -77,6 +79,17 @@ button {
  align-items: center;
  justify-content: center;
 
+} 
+
+.div1{
+  gap: 20px;
+}
+.rightpart img{
+  padding-bottom: 200px;
+}
+
+.div1 button {
+  width: 150px;
 }
 .div1 , .div2 , .div3{
 
@@ -190,4 +203,56 @@ footer h3{
   align-items: center;
   padding-top: 80px ;
 }
+
+.part4{
+  padding-left: 40px;
+}
+
+
+.modif{ 
+  padding-left: 200px;
+}
+.input{padding-left: 200px;
+
+} 
+input{display :none}
+/* .checkbtn{
+    /* cursor:pointer;  */
+    /* display: none;
+  } */ */
+  #check {
+    display: none;
+  }
+
+@media (max-width: 450px){
+  .links{
+    display: none;
+
+  }
+  nav button {
+    display: none;
+  }
+  input {
+    display: block;
+  }
+  
+  #check:checked +.links{
+    display: block;
+    left: 0;
+  }
+
+
+  }
+
+
+  
+   
+
+
+
+
+
+
+
+
 
