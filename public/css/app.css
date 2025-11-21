@@ -97,21 +97,11 @@ button {
  width: 35%;
  display: flex;
  flex-direction: column;
- /* align-items: center;
- justify-content: center; */
 border-style:solid ;
  border-color: transparent ;
  width: 20vw;
  height: 50vh;
-
-
 }
-/* .div2 i  , .div3 i{ margin : 0 auto ;
- width: 70%;
- padding-bottom: 10px;
- 
-} */
-
 
 
 
@@ -180,36 +170,10 @@ footer h3{
 
 }
 
-/* .title2{
-  display: flex;
-  justify-content: flex-start;
-  color:rgb(17, 17, 65) ;
-} */
 
- /* .about{
-  display: flex;
-  justify-content: space-around;
-} */
-.about input{
-  width: 600px;
-  height: 30px;
-  
-}
-.part3 button{
- right: 40px;
-}
-.input-text{
- display: flex;
- justify-content: flex-start;
- padding-left: 75px;
- padding-top:20px ;
 
-}
 
-.input-text textarea{
-   width: 94%;
- height: 200px;
-}
+
 
 
 .last-button{
@@ -220,7 +184,7 @@ footer h3{
 }
 
 .part3{
-  padding-left: 40px;
+
 }
 
 
@@ -230,34 +194,44 @@ footer h3{
 .input{padding-left: 200px;
 
 } 
-/* input{display :none}
-/* .checkbtn{
-    /* cursor:pointer;  */
-    /* display: none;
-  } */ */
-  #check {
-    display: none;
-  } */
-
-/* @media (max-width: 450px){
-  .links{
-    display: none;
-
-  }
-  nav button {
-    display: none;
-  }
-  input {
-    display: block;
-  }
-  
-  #check:checked +.links{
-    display: block;
-    left: 0;
-  }
 
 
-  } */
+.part3{
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom:20px;
+ padding-left: 50px;
+}
+
+.west{
+  display: grid;
+  grid-template-rows: 50px 150px;
+  row-gap: 30px;
+}
+
+.about{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.input-text{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+
+
+
 
 
   
